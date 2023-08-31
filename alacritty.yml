@@ -1,0 +1,65 @@
+##Terminal Window Settings
+window:
+
+  dimensions:
+    columns: 82
+    lines: 24  
+
+  padding:
+    x: 6
+    y: 6
+  
+  dynamic_padding: false
+  
+  decorations: none
+
+
+##Background Opacity
+  opacity: 1.0
+  
+##Scrolling    
+scrolling: 
+  history: 5000
+
+##Cursor
+cursor:
+  style:
+    shape: Beam
+    blinking: On  
+
+##Theme  
+schemes:
+  ### Doom One ###
+  DoomOne: &DoomOne
+    primary:
+      background: '#282c34'
+      foreground: '#bbc2cf'
+    cursor:
+      text: CellBackground
+      cursor: '#528bff'
+    selection:
+      text: CellForeground
+      background: '#3e4451'
+    normal:
+      black:   '#1c1f24'
+      red:     '#ff6c6b'
+      green:   '#98be65'
+      yellow:  '#da8548'
+      blue:    '#51afef'
+      magenta: '#c678dd'
+      cyan:    '#5699af'
+      white:   '#202328'
+    bright:
+      black:   '#5b6268'
+      red:     '#da8548'
+      green:   '#4db5bd'
+      yellow:  '#ecbe7b'
+      blue:    '#3071db'   
+      magenta: '#a9a1e1'
+      cyan:    '#46d9ff'
+      white:   '#dfdfdf'
+
+
+ 
+colors: *DoomOne
+
